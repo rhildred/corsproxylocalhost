@@ -1,0 +1,15 @@
+{
+  "name": "corsproxy",
+  "version": "1.0.0",
+  "description": "corsproxy to run on heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "proxy": "cors-proxy start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@isomorphic-git/cors-proxy": "^2.7.1"
+  }
+}
